@@ -62,7 +62,7 @@ client.post('/api/submit', {
 });
 ```
 ### Expected Output
-```json
+```javascript
 {
   json: {
     errors: [],
