@@ -30,7 +30,7 @@ Install via `npm`:
 To get started, you need to create an [app](https://www.reddit.com/prefs/apps). To understand how Reddit apps work, I suggest reading about it [here]([https://github.com/reddit-archive/reddit/wiki/oauth2](https://github.com/reddit-archive/reddit/wiki/oauth2)). 
 ### **Instructions**:
 1. Create your app on Reddit (Either `Web App` or `Script`).
-2. Follow the next steps [here]([https://github.com/reddit-archive/reddit/wiki/oauth2](https://github.com/reddit-archive/reddit/wiki/oauth2)).
+2. Follow the next steps [here](https://github.com/reddit-archive/reddit/wiki/oauth2).
 3. Acquire your `refresh token`, `client id` and `client secret`.
 
 ## Usage
