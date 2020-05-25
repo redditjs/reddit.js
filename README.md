@@ -92,8 +92,8 @@ At the time of this writing, no Documentation exists yet, as this package lacks 
  - `Client.authenticate()` Authorize your app and generate an access token
  - `Client.get(path, options)` where `path`: The api path you want to invoke, `options`: The options required for the request
  - `Client.put(path, options)` where `path`: The api path you want to invoke, `options`: The options required for the request
- - `Client.post(path, options)` where `path`: The api path you want to invoke, `options`: The options required for the request
- - `Client.patch(path, options)` where `path`: The api path you want to invoke, `options`: The options required for the request
+ - `Client.post(path, options)`where `path`: The api path you want to invoke, `options`: The options required for the request
+ - `Client.patch(path, options)`where `path`: The api path you want to invoke, `options`: The options required for the request
  - `Client.delete(path, options)` where `path`: The api path you want to invoke, `options`: The options required for the request
  ### `Events`
  - `authorized` Emitted when the `Client` successfully authenticated.
