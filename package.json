@@ -1,0 +1,28 @@
+{
+  "name": "redditjs",
+  "version": "0.0.1",
+  "description": "A JavaScript library for Reddit's API.",
+  "main": "reddit.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redditjs/reddit.js.git"
+  },
+  "keywords": [
+    "reddit",
+    "redditjs",
+    "reddit-api",
+    "api",
+    "nickacide",
+    "redditjs"
+  ],
+  "author": "Nickacide",
+  "license": "MIT",
+  "dependencies": {
+    "events": "^3.1.0",
+    "request-promise": "^4.2.5"
+  },
+  "bugs": {
+    "url": "https://github.com/redditjs/reddit.js/issues"
+  },
+  "homepage": "https://github.com/redditjs/reddit.js#readme"
+}
