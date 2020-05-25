@@ -2,10 +2,10 @@
 # RedditJS 
 [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![coverage-image]][coverage-url] [![Discord][discord-image]][discord-url]
 
-[npm-image]: https://img.shields.io/npm/v/redditjs
-[npm-url]: https://npmjs.com/package/redditjs
-[downloads-image]: https://img.shields.io/npm/dt/redditjs
-[downloads-url]: https://npmjs.com/package/redditjs
+[npm-image]: https://img.shields.io/npm/v/js-reddit
+[npm-url]: https://npmjs.com/package/js-reddit
+[downloads-image]: https://img.shields.io/npm/dt/js-reddit
+[downloads-url]: https://npmjs.com/package/js-reddit
 [discord-image]: https://img.shields.io/discord/697857026180513833?label=Discord
 [discord-url]: https://discord.gg/NR9X4YG
 [coverage-image]: https://img.shields.io/badge/coverage-100%25-blue
@@ -15,7 +15,7 @@
 ## Install
 Install via `npm`:
 
-	npm install --save redditjs
+	npm install --save js-reddit
 **RedditJS** requires `events` and `request-promise` as dependencies.
 
 ## Features
@@ -38,7 +38,7 @@ To get started, you need to create an [app](https://www.reddit.com/prefs/apps). 
 Now that you have everything you need, you can start writing some code. Here is an example for posting a link on Reddit.
 
 ```javascript
-const Reddit = require('redditjs');
+const Reddit = require('js-reddit');
 const client = new Reddit.Client({
 	refresh_token: "refresh token",
 	secret: "client secret",
