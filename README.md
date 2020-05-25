@@ -2,10 +2,10 @@
 # RedditJS 
 [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![coverage-image]][coverage-url] [![Discord][discord-image]][discord-url]
 
-[npm-image]: https://img.shields.io/npm/v/js-reddit
-[npm-url]: https://npmjs.com/package/js-reddit
-[downloads-image]: https://img.shields.io/npm/dt/js-reddit
-[downloads-url]: https://npmjs.com/package/js-reddit
+[npm-image]: https://img.shields.io/npm/v/@nickacide/redditjs?color=brightgreen
+[npm-url]: https://npmjs.com/package/@nickacide/redditjs
+[downloads-image]: https://img.shields.io/npm/dt/@nickacide/redditjs
+[downloads-url]: https://npmjs.com/package/@nickacide/redditjs
 [discord-image]: https://img.shields.io/discord/697857026180513833?label=Discord
 [discord-url]: https://discord.gg/NR9X4YG
 [coverage-image]: https://img.shields.io/badge/coverage-100%25-blue
@@ -15,7 +15,7 @@
 ## Install
 Install via `npm`:
 
-	npm install --save js-reddit
+	npm install --save @nickacide/reddit
 **RedditJS** requires `events` and `request-promise` as dependencies.
 
 ## Features
@@ -38,7 +38,7 @@ To get started, you need to create an [app](https://www.reddit.com/prefs/apps). 
 Now that you have everything you need, you can start writing some code. Here is an example for posting a link on Reddit.
 
 ```javascript
-const Reddit = require('js-reddit');
+const Reddit = require('@nickacide/js-reddit');
 const client = new Reddit.Client({
 	refresh_token: "refresh token",
 	secret: "client secret",
@@ -90,11 +90,11 @@ At the time of this writing, no Documentation exists yet, as this package lacks 
  - `Client.user_agent` (Optional) Your **User Agent**. Always try provide one.
  ### `Methods`
  - `Client.authenticate()` Authorize your app and generate an access token
- - `Client.get(path, options)` where `path`: The api path you want to invoke, `options`: The options required for the request
- - `Client.put(path, options)` where `path`: The api path you want to invoke, `options`: The options required for the request
- - `Client.post(path, options)`where `path`: The api path you want to invoke, `options`: The options required for the request
- - `Client.patch(path, options)`where `path`: The api path you want to invoke, `options`: The options required for the request
- - `Client.delete(path, options)` where `path`: The api path you want to invoke, `options`: The options required for the request
+ - `Client.get(path, options)` where `path`: The api path you want to invoke, `options`: The options for the request
+ - `Client.put(path, options)` where `path`: The api path you want to invoke, `options`: The options for the request
+ - `Client.post(path, options)`where `path`: The api path you want to invoke, `options`: The options for the request
+ - `Client.patch(path, options)`where `path`: The api path you want to invoke, `options`: The options for the request
+ - `Client.delete(path, options)` where `path`: The api path you want to invoke, `options`: The options for the request
  ### `Events`
  - `authorized` Emitted when the `Client` successfully authenticated.
  
