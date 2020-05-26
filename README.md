@@ -15,8 +15,8 @@
 ## Install
 Install via `npm`:
 
-	npm install --save @nickacide/reddit
-**RedditJS** requires `events` and `request-promise` as dependencies.
+	npm install --save @nickacide/redditjs
+**RedditJS** requires `request-promise` as a dependency.
 
 ## Features
 
@@ -38,7 +38,7 @@ To get started, you need to create an [app](https://www.reddit.com/prefs/apps). 
 Now that you have everything you need, you can start writing some code. Here is an example for posting a link on Reddit.
 
 ```javascript
-const Reddit = require('@nickacide/js-reddit');
+const Reddit = require('@nickacide/redditjs');
 const client = new Reddit.Client({
 	refresh_token: "refresh token",
 	secret: "client secret",
